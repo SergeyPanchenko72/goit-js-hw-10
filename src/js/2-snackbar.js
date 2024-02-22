@@ -1,1 +1,1 @@
-console.log(snackbar);
+console.log('snackbar');
