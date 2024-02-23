@@ -59,6 +59,9 @@ button[disabled] {
   display: flex;
   flex-direction: column;
   text-align: center;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
 }
 
 .value {
@@ -72,4 +75,55 @@ button[disabled] {
   line-height: 150%;
   color: #2e2f42;
   text-transform: uppercase;
+}
+
+/* ============PROMICE============ */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  width: 360px;
+}
+
+input[name='delay'] {
+  display: flex;
+  height: 40px;
+  width: 340px;
+  margin: 16px 0 8px;
+}
+fieldset {
+  margin-bottom: 16px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+fieldset label {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+fieldset input {
+  margin: 28px 4px 16px;
+}
+input[name='state'] {
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+  width: 12px;
+  height: 12px;
+}
+button {
+  margin: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+button:hover {
+  background: #6c8cff;
 }
