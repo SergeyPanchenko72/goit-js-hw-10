@@ -50,6 +50,10 @@ button[disabled] {
   color: #989898;
 }
 
+button[disabled]:hover {
+  background: #cfcfcf;
+  color: #989898;
+}
 .timer {
   display: flex;
   gap: 24px;
